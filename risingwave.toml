@@ -1,0 +1,14 @@
+# Loopback (the bootstrap inside the container) is trusted; every other client needs a password.
+[[frontend.hba_config.entries]]
+connection_type = "Host"
+databases = ["all"]
+users = ["all"]
+addresses = ["127.0.0.1/32", "::1/128", "::ffff:127.0.0.1/128"]
+auth_method = "trust"
+
+[[frontend.hba_config.entries]]
+connection_type = "Host"
+databases = ["all"]
+users = ["all"]
+addresses = ["all"]
+auth_method = "password"
