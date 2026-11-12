@@ -1,5 +1,7 @@
 # Deploy and Host RisingWave on Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/risingwave-1?utm_medium=integration&utm_source=button&utm_campaign=risingwave)
+
 RisingWave is a Postgres-compatible streaming database. You ingest events from Kafka, Postgres CDC, webhooks or plain inserts, define materialized views in SQL, and RisingWave keeps them incrementally up to date in real time. Any Postgres driver, `psql` or BI tool can query the results with low latency.
 
 ## About Hosting RisingWave
